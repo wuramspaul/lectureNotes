@@ -1,4 +1,4 @@
-\documentclass[a5paper]{article}
+\documentclass[a4paper]{article}
 \usepackage[russian]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
@@ -70,5 +70,50 @@
 	\textbf{\textit{Непосредственное интегрирование}} --- Вычисление интегралов с помощью значений простейших неопределённых интегралов и на основе свойств неопределённых интегралов
 	\subsection{Метод подстановки}
 	\textbf{\textit{Метод подстановки}} --- или замена переменной заключается в том чтобы заменить x на $\phi$(t), где $\phi$(t) -- непосредственно дифференцируемая функция, полагают dx равно  $\phi$(t) * dt  и получают \[ \int f(X)dx = \int f(\phi(t)*\phi'(t))dt \]   
+	\subsection{Метод интегрирования по частям}
+	Формула интегрирования по частям в неопределённом интеграле называется формула:
+	\[ 
+		\int u\:dv = uv -\int v\:du
+	\]
+	\begin{itshape}
+		Где \textbf{u} и \textbf{v} -- деференцируемые функции от \textbf{x}, то есть \textbf{u(x)} и \textbf{v(x)}. Формула позволяет свести вычисления интеграла\textbf{ \( \int u\:dv \)} к вычислению интеграла\textbf{ \( \int v\:du \)}, который может оказатся более простой для интегрирования.
+	\end{itshape}
 	
+	Большую часть интегралов вычисляемых интегрированиям по частям можно разбить на 3 группы:
+	\begin{enumerate}
+		\item 
+		\begin{enumerate}
+			\item \( \int P(x) arctan(x)\:dx \)
+			\item \( \int P(x) arcctg(x)\:dx \)
+			\item \( \int P(x) ln(x)\:dx \)
+			\item \( \int P(x) arcsin(x)\:dx \)
+			\item \( \int P(x) arccos(x)\:dx \)
+			\item \( \int P(x) arcctg(x)\:dx \)
+		\end{enumerate}
+		\begin{itshape}
+			Где \textbf{P(x)} -- многочлен. Для их вычисления следует "положить"  \textbf{u} равной одной из указанной выше функции. Например в уравнении \( \int P(x) arctan(x)\:dx \) заменить \(arctan(x)\) на \textbf{u}, а деференциал равный P(x)dx.%Получаем \( \int udv\)
+		\end{itshape}
+		\item 
+		\begin{enumerate}
+			\item \( \int P(x) e^{kx}dx\)
+			\item \( \int P(x) sin(kx)dx\)
+			\item \( \int P(x) cos(x)dx\)
+		\end{enumerate}
+		\begin{itshape}
+			Где P(x) -- многочлен, а k--некоторое число (может быть даже 1)  для вычисления слудует обозначить u=P(x), тогда:
+		\end{itshape}
+		\begin{enumerate}
+			\item \( \int P(x) e^{kx}dx\quad,\quad dv = e^{kx}dx\)
+			\item \( \int P(x) sin(kx)dx\quad,\quad dv = sin(kx)dx\)
+			\item \( \int P(x) cos(x)dx\quad,\quad dv = cos(x)dx\)
+		\end{enumerate}
+		\item 
+		\begin{enumerate}
+			\item \( \int e^{ax}cos(bx)dx\)
+			\item \( \int e^{ax}sin(bx)dx\)
+		\end{enumerate}
+		\begin{itshape}
+			Где a и b некоторые числа, эти интегралы вычисляются двукаратным интегрированием по частям
+		\end{itshape}
+	\end{enumerate}
 \end{document}
