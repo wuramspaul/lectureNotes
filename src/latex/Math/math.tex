@@ -1,0 +1,74 @@
+\documentclass[a5paper]{article}
+\usepackage[russian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+
+\begin{document}
+	\section{Интегрирование}
+	\subsection{Первообразный и неопределённый интеграл}
+	
+	Функция F(x) --- называется первообразной для функции f(x), на промежутке X, если x $\in$ X, выполняется равенство F'(x) = f(x)
+
+	Тогда X, называется областью определения функции F(x)
+	
+	\vspace{\baselineskip}
+	\begin{itshape}
+		Если F(x) первообразная для функции f(x), то множество функции F(x) + C, где С произвольная постоянная, называется неопределённым интегралом от функции f(x) и обозначается 
+		\begin{displaymath}
+		\int f(x)\,dx=F(x)+C
+		\end{displaymath}
+		\vspace{\baselineskip}
+		При этом функция f(x), называется под интегральной функцией.
+	\end{itshape}
+	
+	\(\int f(x)\,dx\) (произносится как: \textit{f(x) по dx}) --- называется под интегральным выражением.
+	Восстановление функции по её производной или что тоже отыскание неопределённого интеграла, называется \textbf{интегрированием}.
+	
+	\begin{center} \textbf{Интегрирование --- обратно дифференцированию}  \end{center}
+	
+	\newpage
+	\begin{center}
+	\textbf{Значение неопределённых интегралов}
+	\end{center}
+	\begin{enumerate} 
+	\item	\[\int dx = x + C\]	 
+	\item	\[\int x^{n}dx = \dfrac{x^{n+1}}{n+1} + C\]
+	\item	\[\int\dfrac{dx}{x} = \ln{\mid x \mid} + C\]
+	\item	\[\int a^{x}dx = \dfrac{a^{x}}{\ln a} + C\]
+	\item	\[\int\sin x\,dx = -\cos x + C\]
+	\item	\[\int\cos x\,dx = \sin x + C\]
+	\item	\[\int\dfrac{dx}{\cos^{2}x} = tg x + C\]
+	\item	\[\int\dfrac{dx}{\sin^{2}x} = ctg x + C\]
+	\item	\[\int\dfrac{dx}{\sqrt{a^2 - x^2}} = \arcsin\dfrac{x}{a} + C\]
+	\item	\[\int\dfrac{dx}{\sqrt{x^2 \pm a^2}} = \ln \mid x + \sqrt{x^2 \pm + a^2} \mid + C\]
+	\item	\[\int\dfrac{dx}{a^2 + x^2} = \dfrac{1}{2a}\ln \mid\dfrac{a+x}{a-x}\mid + C\]
+	\item	\[\int\dfrac{dx}{x^2 + a^2} = \dfrac{1}{2}arcctan\dfrac{x}{a} + C\]
+	\item	\[\int e^x dx= e^x + C\]
+	\end{enumerate}
+	
+	\newpage
+	\begin{center}
+		\textbf{Свойство интеграла}
+	\end{center}
+	\begin{enumerate}
+		\item Производная неопределённого интеграла равна под интегральному выражению функции, а его дифференциал --- подынтегральному выражению \[ (\int f(X) dx)' = f(x), \, d(\int f(x)dx) = f(x)dx) \]
+		\item Неопределённый интеграл от дифференциала функции равен сумме этих функций и произвольной константе \[ \int d\,F(x) = F(x) + C \] 
+		\item Постоянный множитель можно вынести за знак неопределённого интеграла \[ \int k\,f(x)\,dx = k \int f(x)dx\]
+		\item Неопределённый интеграл от суммы (разности) двух непрерывных функций равен сумме(разности) интегралов от этих функций \[ \int (f(x) \pm g(t))dx = \int f(x)dx \pm \int g(t)dx \]
+	\end{enumerate}
+	\newpage
+	\section{Основные методы интегрирования}
+	\begin{enumerate}
+		\item Непосредственное интегрирование 
+		\item Метод подстановки
+		\item Метод интегрирования по частям 
+	\end{enumerate}
+	
+	\subsection{Непосредственное интегрирование}
+	\textbf{\textit{Непосредственное интегрирование}} --- Вычисление интегралов с помощью значений простейших неопределённых интегралов и на основе свойств неопределённых интегралов
+	\subsection{Метод подстановки}
+	\textbf{\textit{Метод подстановки}} --- или замена переменной заключается в том чтобы заменить x на $\phi$(t), где $\phi$(t) -- непосредственно дифференцируемая функция, полагают dx равно  $\phi$(t) * dt  и получают \[ \int f(X)dx = \int f(\phi(t)*\phi'(t))dt \]   
+	
+\end{document}
