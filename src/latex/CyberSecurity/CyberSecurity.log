@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.18)  20 JAN 2020 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.18)  1 FEB 2020 08:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,8 @@ entering extended mode
 LaTeX2e <2019-10-01> patch level 3
 (c:/texlive/2019/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(c:/texlive/2019/texmf-dist/tex/latex/extsizes/size14.clo
-File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 (c:/texlive/2019/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
@@ -284,6 +284,30 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 (c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
 (./CyberSecurity.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 4
 .
@@ -292,118 +316,231 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `CyberSecurity.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 (c:/texlive/2019/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen107
+\scratchbox=\box27
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen108
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks21
+) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 (c:/texlive/2019/texmf-dist/tex/latex/ucs/data/uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
-Overfull \hbox (1.42351pt too wide) in paragraph at lines 16--17
-[]\T2A/cmr/m/n/14.4 Актуальность про-бле-мы обес-пе-че-ния ин-фор-ма-ци-он-ной 
-без-опас-
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 11.
+
+Overfull \hbox (1.26218pt too wide) in paragraph at lines 12--12
+[]\T2A/cmr/bx/n/17.28 Защита ин-фор-ма-ции в ин-фор-ма-ци-он-но вы-
  []
 
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+5.
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
-Overfull \hbox (6.17874pt too wide) in paragraph at lines 22--23
-[]\T2A/cmr/m/n/14.4 Обеспечение ин-фор-ма-ци-он-ной без-опас-но-сти про-бле-мы 
-мо-жет быть
+Overfull \hbox (9.57254pt too wide) in paragraph at lines 26--27
+[]\T2A/cmr/m/n/12 защита эле-мен-тов си-сте-мы от де-ста-би-ли-зи-ру-ю-щий воз-
+дей-ствия внеш-
  []
 
 [1
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-4.
+Overfull \hbox (10.21828pt too wide) in paragraph at lines 49--50
+[]\T2A/cmr/m/n/12 Ликвидация по-след-ствий име-ет це-лью вос-ста-нов-ле-нию со-
+сто-я-ния, пред-
+ []
 
-(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
- [2]
-Overfull \hbox (6.7352pt too wide) in paragraph at lines 51--52
-[]\T2A/cmr/m/n/14.4 Актуальность и важ-ность ин-фор-ма-ци-он-ной без-опас-но-ст
-и(ИБ) обу-
+[2]
+Overfull \hbox (3.53584pt too wide) in paragraph at lines 65--66
+[]\T2A/cmr/m/n/12 предотвращение ненк-сан-ци-о-ни-ро-ван-но-го дей-ствий по уни
+-что-же-нию,
  []
 
 
-Overfull \hbox (2.93707pt too wide) in paragraph at lines 56--57
-[]\T2A/cmr/m/n/14.4 несоответствию раз-ви-тия средств об-ра-бот-ки ин-фор-ма-ци
-и и про-
+Overfull \hbox (1.41472pt too wide) in paragraph at lines 65--66
+\T2A/cmr/m/n/12 мо-ди-фи-ка-ции, ис-ка-же-нию, ко-пи-сро-ва-ния, бло-ки-ров-ки 
+ин-фор-ма-ции. 
  []
 
 [3]
-Overfull \hbox (0.66403pt too wide) in paragraph at lines 62--63
-[]\T2A/cmr/m/n/14.4 предотвращения уте-чи хи-ще-ния утра-ты ис-ка-же-ния по-дел
--ки ин-
+Overfull \hbox (5.82002pt too wide) in paragraph at lines 78--79
+[]\T2A/cmr/m/n/12 Создание усло-вий для воз-ме-ще-ния м ло-ка-ли-за-ции на-не-с
+јн-но-го ущер-
+ []
+
+[4]
+Overfull \hbox (22.67293pt too wide) in paragraph at lines 91--92
+[]\T2A/cmr/bx/it/12 Угроза \T2A/cmr/m/n/12 --- это по-тен-ци-аль-ное воз-мож-на
+я со-бы-тие, дей-ствия(воздействия),
  []
 
 
-Overfull \hbox (1.62378pt too wide) in paragraph at lines 67--68
-\T2A/cmr/m/n/14.4 тай-ны и кон-фи-ден-ци-аль-но-сти пер-со-наль-ных дан-ных, им
-е-ю-щих-
- []
-
-[4] [5]
-Overfull \hbox (52.00978pt too wide) in paragraph at lines 90--91
-[]\T2A/cmr/bx/it/14.4 Угроза \T2A/cmr/m/n/14.4 --- это по-тен-ци-аль-ное воз-мо
-ж-ная со-бы-тие, дей-ствия(воздействия),
+Overfull \hbox (5.24797pt too wide) in paragraph at lines 103--104
+[]\T2A/cmr/bx/it/12 Угроза на-ру-ше-ния це-лост-но-сти \T2A/cmr/m/n/12 --- за-к
+лю-ча-ет в се-бе лю-бое умыш-
  []
 
 
-Overfull \hbox (5.9689pt too wide) in paragraph at lines 100--101
-[]\T2A/cmr/bx/it/14.4 Угроза на-ру-ше-ния кон-фен-ди-ци-аль-но-сти \T2A/cmr/m/n
-/14.4 --- ин-фор-ма-ция ста-
+Overfull \hbox (8.70984pt too wide) in paragraph at lines 107--108
+[]\T2A/cmr/bx/it/12 Доступность ин-фор-ма-ции \T2A/cmr/m/n/12 --- это свой-ство
+ си-сте-мы (сре-ды, средств
+ []
+
+[5]
+Overfull \hbox (6.53964pt too wide) in paragraph at lines 119--120
+[]\T2A/cmr/m/n/12 Пересылка дан-ных по оши-боч-но-му ад-ре-су або-нен-та(устрой
+ства) 
+ []
+
+(c:/texlive/2019/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) [6]
+<screenshot002.png, id=29, 642.14906pt x 503.63156pt>
+File: screenshot002.png Graphic file (type png)
+<use screenshot002.png>
+Package pdftex.def Info: screenshot002.png  used on input line 174.
+(pdftex.def)             Requested size: 467.99881pt x 367.05624pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 174--175
+ [][] 
  []
 
 
-Overfull \hbox (9.78198pt too wide) in paragraph at lines 102--103
-\T2A/cmr/m/n/14.4 умыш-лен-ное из-ме-не-ние ин-фор-ма-ции хра-ня-щая в се-бе(вы
-числительной
+Overfull \hbox (4.02116pt too wide) in paragraph at lines 193--194
+[]\T2A/cmr/m/n/12 Автоматическая си-сте-ма про-вер-ки це-лост-но-сти си-сте-мы 
+и еј средств
  []
 
-[6]
-Overfull \hbox (34.53247pt too wide) in paragraph at lines 118--119
-[]\T2A/cmr/m/n/14.4 Пересылка дан-ных по оши-боч-но-му ад-ре-су або-нен-та(устр
-ойства) 
+[7] [8 <./screenshot002.png (PNG copy)>]
+<screenshot001.png, id=37, 431.211pt x 336.2964pt>
+File: screenshot001.png Graphic file (type png)
+<use screenshot001.png>
+Package pdftex.def Info: screenshot001.png  used on input line 210.
+(pdftex.def)             Requested size: 390.0pt x 304.16748pt.
+ [9 <./screenshot001.png>]
+Overfull \hbox (1.08847pt too wide) in paragraph at lines 244--245
+[]\T2A/cmr/m/n/12 Функциональные, со-от-вед-сту-ет ак-тив-но-му ас-пек-ту за-ци
+-ты пре-дьяв-
  []
 
-[7] (./CyberSecurity.aux) ) 
+
+Overfull \hbox (8.20631pt too wide) in paragraph at lines 245--246
+[]\T2A/cmr/m/n/12 Требования до-ве-рия, СО-ОТ-ВЕД-СТВУ-Ю-ЩИЕ ПАС-СИВ-НО-МУ АС-
+ []
+
+[10] [11] [12]
+Overfull \hbox (2.65999pt too wide) in paragraph at lines 311--311
+[]\T2A/cmr/bx/n/17.28 Методы иден-ти-фи-ка-ции и аутен-ти-фи-ка-ции 
+ []
+
+
+Overfull \hbox (1.57108pt too wide) in paragraph at lines 315--316
+\T2A/cmr/m/n/12 свя-за-на неко-то-рая ин-фор-ма-ция, од-но-знач-но иден-ти-фи-ц
+и-ру-ю-щая его. Это
+ []
+
+[13]
+Overfull \hbox (3.36987pt too wide) in paragraph at lines 335--336
+[]\T2A/cmr/m/n/12 Общий слу-чай функ-ци-о-ни-ро-ва-ния си-сте-мы с од-ним при-к
+лад-ным поль-
+ []
+
+[14] (c:/texlive/2019/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Overfull \hbox (1.90149pt too wide) in paragraph at lines 349--350
+[]\T2A/cmr/m/n/12 Здесь зло-умыш-лен-ник (санк-ци-о-ни-ро-ван-ный поль-зо-ва-те
+ль) мо-жет осу-
+ []
+
+
+Overfull \hbox (0.52956pt too wide) in paragraph at lines 350--350
+[]\T2A/cmr/bx/n/12 Классификация за-дач иден-ти-фи-ка-ции и аутен-ти-фи-ка-ции 
+
+ []
+
+[15]
+Overfull \hbox (5.65411pt too wide) in paragraph at lines 357--358
+[]\T2A/cmr/m/n/12 - раз-ра-бот-ка ос-но-во-по-ла-га-ю-щих кри-те-ри-ев, при-год
+-ных для це-лей иден-
+ []
+
+
+Overfull \hbox (56.23201pt too wide) in paragraph at lines 375--376
+[]\T2A/cmr/m/n/12 - клас-си-фи-ка-ция по при-над-леж-но-сти иден-ти-фи-ка-то-ро
+в и па-ро-лей(пользователь,
+ []
+
+[16]
+Overfull \hbox (11.94339pt too wide) in paragraph at lines 382--382
+[]\T2A/cmr/bx/n/12 Методы иден-ти-фи-ка-ции и уста-нов-ле-ния под-лин-но-сти су
+бъ-
+ []
+
+[17]
+<screenshot003.png, id=68, 312.2064pt x 289.5618pt>
+File: screenshot003.png Graphic file (type png)
+<use screenshot003.png>
+Package pdftex.def Info: screenshot003.png  used on input line 411.
+(pdftex.def)             Requested size: 272.99881pt x 253.21129pt.
+ [18 <./screenshot003.png>] [19] [20] [21] (./CyberSecurity.aux) ) 
 Here is how much of TeX's memory you used:
- 2587 strings out of 492162
- 33304 string characters out of 6129062
- 105908 words of memory out of 5000000
- 6968 multiletter control sequences out of 15000+600000
- 14739 words of font info for 34 fonts, out of 8000000 for 9000
+ 4137 strings out of 492162
+ 52205 string characters out of 6129062
+ 123831 words of memory out of 5000000
+ 8478 multiletter control sequences out of 15000+600000
+ 13818 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,6n,27p,1194b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super
-/cm-super-t2a.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><
-c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive
-/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2019/texm
-f-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2019/texmf-dist/fon
-ts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
-ublic/cm-super/sfrm1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1728.pfb>
-Output written on CyberSecurity.pdf (7 pages, 119800 bytes).
+ 30i,6n,27p,2186b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2
+019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fon
+ts/type1/public/cm-super/sfbi1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
+ublic/cm-super/sfbx1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-s
+uper/sfbx1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1
+728.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c
+:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/
+2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on CyberSecurity.pdf (21 pages, 618953 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
